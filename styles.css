@@ -12,7 +12,7 @@
 .centro {
   display: flex;
   justify-content: space-between;
-  height:30px;
+  height: 60px;
 }
 .bebida-item {
   display: flex;
