@@ -9,6 +9,11 @@
 * {
   box-sizing: border-box;
 }
+
+html, body {
+  height: 100%;
+}
+
 .centro {
   display: flex;
   justify-content: space-between;
@@ -104,6 +109,8 @@ body {
   text-shadow: -2px 2px 2px black;
   width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* html,
@@ -170,9 +177,7 @@ footer {
   text-align: center;
   padding-top:8px;
   color:white;
-  float: none;
-  position:absolute;
-  bottom:0;
+  flex-shrink: 0;
 }
 
 .centro a {
