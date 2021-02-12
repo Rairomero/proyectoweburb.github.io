@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("Fonts/static/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Italy";
+  src: url("Fonts/static/PlayfairDisplay-Italic.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+}
+.centro {
+  display: flex;
+  justify-content: space-between;
+  height:30px;
+}
+.bebida-item {
+  display: flex;
+}
+.bebida-item div {
+  /* background-color: red; */
+  width: 50%;
+  padding: 10px 50px;
+  font-size: 30px;
+
+  font-family: sans-serif;
+  font-weight: 200;
+}
+a {
+  color: white;
+}
+.historia-contenedor {
+  display: flex;
+}
+.historia-izquierda,
+.historia-derecha {
+  width: 50%;
+}
+
+.historia-imagen {
+  width: 100%;
+}
+.restaurante {
+  max-width: 50%;
+  padding: 0px 0px 0px 20px;
+}
+/* .bebidas-contenedor * {
+  /* text-align: center;  */
+.letrasbebidas {
+  color: white;
+  text-shadow: -2px 2px 2px black;
+  font-size: 200px;
+  font-family: sans-serif;
+}
+.image-menu {
+  width: 50%;
+  display: inline-block;
+}
+.bebidas-titulo {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.bebidas-contenedor {
+  display: flex;
+}
+.bebidas-derecha,
+.bebidas-izquierda {
+  width: 50%;
+  font-size: 20px;
+}
+.bebidas-derecha {
+  padding-left: 0%;
+}
+.bebidas-izquierda {
+  padding-right: 0%;
+}
+.nav-page {
+  display: inline-block;
+  text-align: center;
+  margin: 20px
+}
+.nombre {
+  font-family: "PlayfairDisplay-Italy";
+  display: block;
+  margin: 0 auto;
+  /* Y pa que quede pa ca??holiholii */
+  text-align: center;
+  font-size: 70px;
+  max-width: 7em;
+  line-height: 1.2;
+}
+#titulo {
+  margin: 30px 30px;
+}
+
+main {
+  color: white;
+  text-shadow: -2px 2px 2px black;
+}
+
+body {
+  color: white;
+  text-shadow: -2px 2px 2px black;
+  width: 100%;
+  margin: 0;
+}
+
+/* html,
+body {
+} */
+/* .azul {
+  position: relative;
+}
+.rojo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+} */
+.fondo {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+}
+
+.fondo-nosotros,
+.fondo-locaciones {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://staging.wrhphotography.com/wp-content/uploads/2019/12/The-Art-Factory-Wedding-Paterson-NJ-WRH-Photography-02.jpg");
+}
+.fondo-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("https://www.cocinayvino.com/wp-content/uploads/2017/03/33516114_l-1024x683.jpg");
+}
+.fondo-menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("https://www.wonderbox.es/wondermedias/sys_master/productmedias/hf6/hc1/777352-640x426.jpg");
+}
+.fondo-bebidas {
+  background-image: url("https://i.pinimg.com/originals/81/1c/41/811c4113f46acd3c600d4e1d85eaad32.jpg");
+}
+
+.texto {
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+  font-family: sans-serif;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+  /* flex-grow: 1; */
+}
+.logo {
+  /* height: 100%; */
+  width: 400px;
+  filter: brightness(900%);
+}
+
+footer {
+  width:100%;
+  height: 100px;
+  background-color:black;
+  text-align: center;
+  padding-top:8px;
+  color:white;
+  float: none;
+  position:absolute;
+  bottom:0;
+}
+
+.centro a {
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .centro {
+    height: auto;
+    border-bottom: 0px;
+    display: block;
+  }
+ 
+  .centro a{
+    height: 30px;
+  }
+}
